@@ -2,34 +2,51 @@
 <html lang="en">
 
 <head>
+    <!-- Meta -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>multiplication__app</title>
 
-    <link rel="stylesheet" href="styles.css">
+    <!-- Title -->
+    <title>digital clock</title>
 
+    <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
 
+    <!-- Styles -->
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <div class="container">
-        <form class="white__wrapper" id="form">
-            <p class="score-text" id="score">score: 0</p>
-            <div class="multiply__wrapper">
-                <h3 class="multiply__question">What is <span id="numb_one">2</span> multiply by <span id="numb_two">1</span>?</h3>
-                <input class="multiply__input" id="input" type="number">
-            </div>
-            <button class="btn" type="submit">Submit</button>
-        </form>
+    <h2>Digital Clock</h2>
+    <div class="clock">
+        <div>
+            <span id="hour">00</span>
+            <span id="text">Hours</span>
+        </div>
+
+        <div>
+            <span id="minutes">00</span>
+            <span id="text">Minutes</span>
+        </div>
+
+        <div>
+            <span id="seconds">00</span>
+            <span id="text">Second</span>
+        </div>
+
+        <div>
+            <span id="ampm">AM</span>
+        </div>
     </div>
 
+    <!-- <button class="btn">click</button> -->
 
-    <script src="app.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
